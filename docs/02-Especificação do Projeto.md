@@ -1,57 +1,57 @@
 # Especificação do Projeto
 
 ## Perfis de Usuários
----
+
 
 Os perfis levantados durante o processo de entendimento do problema são apresentados nas tabelas a seguir:
 
 ### **Perfil 01 – Carlos Afonso**
 
->| Descrição                                                                   |
+| Descrição                                                                   |
 | --------------------------------------------------------------------------- |
 | Estudante de Ciências da Computação na faculdade PUC Minas – Belo Horizonte |
 
->| Necessidades                                              |
+| Necessidades                                              |
 | --------------------------------------------------------- |
 | Chat para conversas; Campo de especificações dos animais. |
 
 
 ### **Perfil 02 – Marta Gomes**
 
->| Descrição                                                                                                  |
+| Descrição                                                                                                  |
 | ---------------------------------------------------------------------------------------------------------- |
 | Formada em Arquitetura, trabalha como projetista em uma construtora que atende todo o território nacional. |
 
->| Necessidades                                                                                                        |
+| Necessidades                                                                                                        |
 | ------------------------------------------------------------------------------------------------------------------- |
 | Publicação de animais; Filtros de busca; Chat para conversa; Vinculação a redes sociais; Fotos e vídeos de animais. |
 
 
 ### **Perfil 03 – Nayara de Carvalho**
 
->| Descrição                                                                                                                                             |
+| Descrição                                                                                                                                             |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Formada em Medicina Veterinária e atualmente atua também como Presidente e gestora da Ong Amor de Pelos, uma organização civil e sem fins lucrativos. |
 
->| Necessidades                                              |
+| Necessidades                                              |
 | --------------------------------------------------------- |
 | Aplicativo de fácil manejo; Divulgação de animais de rua. |
 
 ### **Perfil 04 – Ricardo Silveira**
 
-> | Descrição|
+| Descrição|
 | ---------------------------- |
 | Formado em administração, trabalha como consultor administrativo. É voluntário da ONG Ampara Animal.  |
 
->| Necessidades             |
+| Necessidades             |
 | --------------------------------------------------------- |
 |Perfil de quem quer adotar; Impulsionamento de publicação.|
 
 ## Histórias de usuários
----
+
 A partir da compreensão das personas identificadas, foram registradas as seguintes histórias dos usuários:
 
->|Eu como (quem)|Quero desejo (o que)|Para (porque)|
+|Eu como (quem)|Quero desejo (o que)|Para (porque)|
 |---|---|---|
 |Carlos Afonso |Quero um chat onde possa conversar com quem deseja doar o animal para trocar informações mais detalhadas.|Isso evitaria que eu adotasse um animal de uma pessoa que pratica maus tratos, podendo ter mais confiança naquele que quer doar. |
 |Carlos Afonso|Um campo com as especificações dos animais, como raça, peso e porte.|Isso me ajudaria a adotar um animal que seja condizente com minha moradia, evitando que eu adote algum animal de grande porte e depois tenha que o doar devido à falta de espaço.|
@@ -70,14 +70,14 @@ A partir da compreensão das personas identificadas, foram registradas as seguin
 |Rita Moretti |Sistema de feedback e denúncias. |Identificar perfis confiáveis e de possível agressores de animais, para aumentar a confiança no uso da plataforma por parte dos usuários.  |
 
 ## Requisitos do Projeto
----
+
 A finalidade dos requisitos funcionais e não funcionais tem por propósito, respectivamente, descrever (ou enumerar) as possibilidades de interação dos usuários com o sistema e especificar os aspectos que ele deverá apresentar de maneira geral. Os requisitos serão descritos a seguir:
 
 ### Requisitos Funcionais
 
 A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues.
 
->|ID|Descrição|Prioridade|
+|ID|Descrição|Prioridade|
 |---|---|---|
 |RF-01|O sistema deve permitir o cadastro de usuários (responsáveis pelos animais, interessados em adotar, ONGS e instituições públicas ou privadas) de forma simples e intuitiva. |Alta|
 |RF-02|O sistema deve permitir ao usuário o gerenciamento de sua conta, podendo adicionar descrições, contatos e dados em geral. |Alta|
@@ -102,7 +102,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender:
 
->|ID|Descrição|Prioridade|
+|ID|Descrição|Prioridade|
 |---|---|---|
 |RF-01|O site deve cumprir com as diretrizes da Lei Geral de Proteção de Dados (13.709/ 2018) - LGPD |Alta|
 |RF-02|O site deve ser responsivo ao tamanho da tela do usuário (tablet, smartphone, desktop e notebook) com alterações mínimas.|Alta|
