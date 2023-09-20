@@ -43,7 +43,7 @@ O meio mais utilizado são os grupos hospedados em mídias sociais, porém a com
 Embora todas as pessoas possam ter animais de estimação nem todas estão aptas a isso, pois cuidar de um animalzinho demanda tempo e responsabilidade, desta forma estabeleceu-se como público-alvo desta solução pessoas a partir de 18 anos que possam ser doadores ou potenciais donos responsáveis.  
 
    
-# Questões Éticas
+## Questões Éticas
 
 O aplicativo deverá respeitar e estar de acordo com a LGPD (Lei Geral de Proteção de Dados Pessoais), além de prezar sempre pela privacidade do usuário.
 
@@ -51,7 +51,7 @@ Referências:
 http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm
 
    
-# Impactos Socias
+## Impactos Socias
 
 Atualmente vemos cada vez mais animais domésticos sendo abandonados, sendo por diversos motivos como porte, idade, saúde e situação financeira da família do animalzinho, o abandono de animais é um ato cruel e irresponsável e esses animais ficam a mercê de diversos perigos nas ruas, como fome, doenças e acidentes, além de maus-tratos realizados por pessoas que não gostam desses animais.
 
