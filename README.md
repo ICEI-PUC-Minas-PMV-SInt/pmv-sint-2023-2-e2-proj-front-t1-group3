@@ -1,4 +1,4 @@
-# Aplicação Web de assistência no controle de revisão de motocicletas
+# Aplicação Web de Sistema para adoção de animais domésticos. 
 
 `CURSO`Tecnologia em Sistemas para Internet.
 
@@ -6,7 +6,8 @@
 
 `SEMESTRE`02/2023
 
-Projeto de Aplicação Web direcionado para motocicletas, que visa auxiliar oficinas e motociclistas na manutenção preventiva e conserto dos veículos. Através de uma plataforma própria para inclusão de dados pela oficina, acesso rápido ao histórico de dados de suas motos pelo cliente e a facilidade na comunicação entre ambos, o projeto possibilita um suporte de navegação mais adequado e eficiente aos seus usuários e atende as expectativas dos que buscam mais atenção nos cuidados com suas motos.
+Projeto direcionado a criação de uma aplicação web simples e eficaz, que visa viabilizar de forma assertiva a comunicação entre possíveis novos tutores com aqueles que precisam doar animais domésticos.  
+Com funcionalidades de adição intuitivas simples e de fácil acesso dos animais de forma individual, por raça, tamanho cor, etc. Interação por meio de um chat, assim como campo para publicação de comentários nas postagens, cadastro simplificado (e-mail ou celular) proporcionando maior segurança aos usuários, uma vez que os dados podem ser verificados, apresentando um termo de compromisso com as diretrizes da L.G.P.D. 
 
 ## Integrantes
 
