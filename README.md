@@ -19,7 +19,7 @@ Projeto de Aplicação Web direcionado para motocicletas, que visa auxiliar ofic
 
 ## Orientador
 
-* Fabiano Costa Teixeira 
+* Nathalia Assis Valentim
 
 ## Instruções de utilização
 
