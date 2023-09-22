@@ -6,8 +6,7 @@
 
 `SEMESTRE`02/2023
 
-Projeto direcionado a criação de uma aplicação web simples e eficaz, que visa viabilizar de forma assertiva a comunicação entre possíveis novos tutores com aqueles que precisam doar animais domésticos.  
-Com funcionalidades de adição intuitivas simples e de fácil acesso dos animais de forma individual, por raça, tamanho cor, etc. Interação por meio de um chat, assim como campo para publicação de comentários nas postagens, cadastro simplificado (e-mail ou celular) proporcionando maior segurança aos usuários, uma vez que os dados podem ser verificados, apresentando um termo de compromisso com as diretrizes da L.G.P.D. 
+Projeto direcionado a criação de uma aplicação web simples e eficaz, que visa viabilizar de forma assertiva a comunicação entre possíveis novos tutores com aqueles que precisam doar animais domésticos. Com funcionalidades de adição intuitivas simples e de fácil acesso dos animais de forma individual, por raça, tamanho cor, etc. Interação por meio de um chat, assim como campo para publicação de comentários nas postagens, cadastro simplificado (e-mail ou celular) proporcionando maior segurança aos usuários, uma vez que os dados podem ser verificados, apresentando um termo de compromisso com as diretrizes da L.G.P.D. 
 
 ## Integrantes
 
