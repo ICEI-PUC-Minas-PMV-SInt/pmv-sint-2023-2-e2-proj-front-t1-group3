@@ -9,7 +9,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## User Flow
 
-![fluxo](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group3/assets/131212075/9638ca6e-2711-40ae-9700-3b9e75296052)
+![Fluxo-de-telas-do-usuário](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group3/assets/131212075/bdf0d72b-8cca-4cd7-9d96-e4b49c309270)
 <strong>Fluxo do usuário.</strong>
 <hr>
 
