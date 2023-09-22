@@ -10,11 +10,12 @@ Projeto de Aplicação Web direcionado para motocicletas, que visa auxiliar ofic
 
 ## Integrantes
 
-* Arthur Wilson de Sousa
-* Cheyenne Fontes de Souza
-* Igor Antônio de Oliveira Lloyd 
-* Renato Cacildo Junior 
-* Rodolfo Cícero Lacerda Lana
+* Alicia Ribeiro Andrade da Silva
+* Beatriz dos Santos Ferreira
+* Danilo Henrique Pupin de Carvalho
+* Lorena Terenzi Alves 
+* Sabrina de Souza Landi
+* Theodoro Augusto de Brito Spadinger
 
 ## Orientador
 
