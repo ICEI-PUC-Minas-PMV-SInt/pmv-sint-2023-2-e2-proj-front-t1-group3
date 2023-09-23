@@ -1,77 +1,54 @@
-
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+A metodologia utilizada para realização deste trabalho baseia-se nas ferramentas usadas para a manutenção de códigos e demais artefatos quanto para a organização e execução das tarefas por parte da equipe, tornando o trabalho organizado e colocando em prática ferramentas e conhecimentos aprendidos nos microfundamentos.
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+## Relação de Ambientes de Trabalho
 
-## Controle de Versão
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas disponíveis online e a relação dos ambientes com seu respectivo propósito. Essa relação é apresentada na tabela que se segue:
 
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+|     Ambiente      | Plataforma |                                              Link de Acesso                                              |
+| :---------------: | :--------: | :------------------------------------------------------------------------------------------------------: |
+|   Gerenciamento   |   Trello   | https://trello.com/invite/b/lDxh8WTb/ATTI35de9656de6ad6a3e7e5886c567cb3be4C76BD08/lar-pro-bicho-template |
+|      GitHub       |   GitHub   |           https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group3>            |
+| Protótipo Desktop | Marvel App |                                 https://marvelapp.com/prototype/f0d97bg                                  |
 
-O projeto segue a seguinte convenção para o nome de branches:
+## Gerenciamento do Projeto
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+A equipe utilizou metodologias ágeis para realizar o projeto, tendo escolhido o modelo Scrum como base para definição do processo de desenvolvimento do mesmo.
 
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
+A equipe está organizada da seguinte maneira:
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+-  **Scrum Master**: Alicia Ribeiro Andrade;
+-  **Product Owner**: Sabrina Landi;
+-  **Equipe de Desenvolvimento**:
+   -  Beatriz dos Santos Ferreira;
+   -  Theodoro Augusto de Brito.
+-  **Equipe de Design**:
+   -  Danilo Henrique Pupin;
+   -  Lorena Terenzi.
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas:
 
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+-  **Recursos**: Este item contém o template das tarefas, com as configurações que todos devem seguir. Seu objetivo é facilitar a criação de novos cartões e o desenvolvimento das tarefas;
+-  **Backlog**: Representa as tarefas a serem trabalhadas pelos integrantes, todas as atividades ao decorrer do projeto foram incorporadas a essa lista;
+-  **Locked**: Contém o que impede o desenvolvimento de alguma tarefa, de modo que os outros integrantes vejam o que travou aquela tarefa e possa ajudar a resolver;
+-  **To Do**: Este item representa o Sprint Backlog da aplicação, contém a situação atual do que o grupo está desenvolvendo;
+-  **Doing**: Representa a fase após as tarefas serem decididas no “To Do”, no momento em que cada integrante iniciar a tarefa ela deve ser colocada neste item;
+-  **Test**: Este é o item que se refere a Checagem de Qualidade dos itens desenvolvidos pelo grupo. Ao final de cada semana o grupo revisa o que foi concluído para ver a necessidade de mudanças ou não, caso seja necessário ela retorna ao item “Doing”;
+-  **Done**: Este item representa as tarefas que já passaram pela checagem de qualidade e não houve necessidades de mudanças, ou seja, ela se torna uma tarefa terminada.
+-  **Anotações/Anexos**: Este item foi criado para ser utilizado pelo grupo de modo que possam compartilhar links ou anotações referentes ao projeto.
 
-## Gerenciamento de Projeto
+O quadro kanban do grupo no Trello está disponível através da URL https://trello.com/invite/b/lDxh8WTb/ATTI35de9656de6ad6a3e7e5886c567cb3be4C76BD08/lar-pro-bicho-template e é apresentado, no estado atual, na Figura 01. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
 
-### Divisão de Papéis
+![Figura 01](../images/trello.png)
+Figura 01 - Tela do Trello utilizada pelo grupo
 
-Apresente a divisão de papéis entre os membros do grupo.
+A tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+-  Gerencia de Projetos;
+-  Documentação;
+-  Desenvolvimetno;
+-  Infraestrutura;
+-  Testes;
 
-### Processo
-
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
-
-### Ferramentas
-
-As ferramentas empregadas no projeto são:
-
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
-
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+   ![Imagem](../images/trello2.png)
