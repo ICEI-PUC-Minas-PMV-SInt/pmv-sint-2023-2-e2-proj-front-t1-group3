@@ -7,45 +7,28 @@ Os perfis levantados durante o processo de entendimento do problema são apresen
 
 ### **Perfil 01 – Carlos Afonso**
 
-| Descrição                                                                   |
-| --------------------------------------------------------------------------- |
-| Estudante de Ciências da Computação na faculdade PUC Minas – Belo Horizonte |
-
-| Necessidades                                              |
-| --------------------------------------------------------- |
-| Chat para conversas; Campo de especificações dos animais. |
+| Descrição                                                                   |Necessidades|
+| :--------------------------------------------------------------------------- |:---|
+| Estudante de Ciências da Computação na faculdade PUC Minas – Belo Horizonte |Chat para conversas; Campo de especificações dos animais.|
 
 
 ### **Perfil 02 – Marta Gomes**
 
-| Descrição                                                                                                  |
-| ---------------------------------------------------------------------------------------------------------- |
-| Formada em Arquitetura, trabalha como projetista em uma construtora que atende todo o território nacional. |
-
-| Necessidades                                                                                                        |
-| ------------------------------------------------------------------------------------------------------------------- |
-| Publicação de animais; Filtros de busca; Chat para conversa; Vinculação a redes sociais; Fotos e vídeos de animais. |
-
+| Descrição                                                                                                  |Necessidades|
+| :---------------------------------------------------------------------------------------------------------- |:---|
+| Formada em Arquitetura, trabalha como projetista em uma construtora que atende todo o território nacional. |Publicação de animais; Filtros de busca; Chat para conversa; Vinculação a redes sociais; Fotos e vídeos de animais.|
 
 ### **Perfil 03 – Nayara de Carvalho**
 
-| Descrição                                                                                                                                             |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Formada em Medicina Veterinária e atualmente atua também como Presidente e gestora da Ong Amor de Pelos, uma organização civil e sem fins lucrativos. |
-
-| Necessidades                                              |
-| --------------------------------------------------------- |
-| Aplicativo de fácil manejo; Divulgação de animais de rua. |
+| Descrição                                                                                                                                             |Necessidades|
+| :----------------------------------------------------------------------------------------------------------------------------------------------------- |:---|
+| Formada em Medicina Veterinária e atualmente atua também como Presidente e gestora da Ong Amor de Pelos, uma organização civil e sem fins lucrativos. |Aplicativo de fácil manejo; Divulgação de animais de rua.|
 
 ### **Perfil 04 – Ricardo Silveira**
 
-| Descrição|
-| ---------------------------- |
-| Formado em administração, trabalha como consultor administrativo. É voluntário da ONG Ampara Animal.  |
-
-| Necessidades             |
-| --------------------------------------------------------- |
-|Perfil de quem quer adotar; Impulsionamento de publicação.|
+| Descrição|Necessidades|
+| :---------------------------- |:---|
+| Formado em administração, trabalha como consultor administrativo. É voluntário da ONG Ampara Animal.  |Perfil de quem quer adotar; Impulsionamento de publicação.|
 
 ## Histórias de usuários
 

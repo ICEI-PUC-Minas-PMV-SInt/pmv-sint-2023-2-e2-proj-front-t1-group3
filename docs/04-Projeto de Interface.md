@@ -1,79 +1,73 @@
 
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+O projeto conta com telas simples e intuitivas. As interfaces foram elaboradas para atender os requisitos funcionais, não funcionais e as necessidades citadas nas histórias de usuário abordadas na <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>. A interação do usuário com as telas do sistema deve ser fácil e fluida, de modo a ser uma experiência agradável. Pensando nos caminhos possíveis e possíveis ações dos usuários, foi criado o fluxo de tela:
 
 ## User Flow
 
-<img src="https://user-images.githubusercontent.com/85751689/178784169-83185e5c-698e-40e1-baee-d68755fa782b.png"></img><hr>
+![Fluxo-de-telas-do-usuário](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group3/assets/131212075/bdf0d72b-8cca-4cd7-9d96-e4b49c309270)
+<strong>Fluxo do usuário.</strong> O fluxo de usuário interativo pode ser acessado pelo seguinte link: https://marvelapp.com/prototype/10182f70/screen/92762403
+<hr>
 
-<img src="https://user-images.githubusercontent.com/85751689/163297668-38d2d5ee-fa94-41b1-881d-96adb59293ee.jpg" style="width: 100%;"></img><br>
-<strong>Interface 1.0:</strong> utilizada para fazer o login.<hr>
+## Interfaces
 
-<img src="https://user-images.githubusercontent.com/85751689/178797744-fa7192be-0e4a-4f30-8ef6-c2428a8587f6.jpg" style="width: 100%;"></img><br>
-<strong>Interface 2.1:</strong> utilizada pelo usuário para selecionar a categoria da sua conta.<hr>
+![tela_1](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group3/assets/131212075/e0d3bb1b-4512-4d78-85e3-c562618957a1)
+<strong>Tela inicial.</strong> Deste ponto o usuário pode explorar os animais para adoção, e, caso já possua conta, pode escolher visualizar suas doações, doar um bichinho e visualizar o chat. Caso não possua cadastro, é possível através desta página, cadastrar-se. <hr>
 
-<img src="https://user-images.githubusercontent.com/85751689/163297924-6f93e8bb-4c64-4fac-8971-0ffabf5eccd5.jpg" style="width: 100%;"></img><br>
-<strong>Interface 2.2:</strong> utilizada pelo usuário para registrar suas credenciais de acesso.<hr>
-
-<img src="https://user-images.githubusercontent.com/85751689/163297983-03b212a4-8799-43dc-807f-5d2c6e498d46.jpg" style="width: 100%;"></img><br>
-<strong>Interface 2.3 A:</strong> utilizada pelo usuário do tipo 'motorista' para registrar sua identificação.<hr>
-
-<img src="https://user-images.githubusercontent.com/85751689/163298054-81b509fe-120e-41be-98fd-92baa3e66648.jpg" style="width: 100%;"></img><br>
-<strong>Interface 2.3 B:</strong> utilizada pelo usuário do tipo 'oficina' para registrar sua identificação.<hr>
-
-<img src="https://user-images.githubusercontent.com/85751689/163298245-f47517d0-f1c9-4d58-9863-f5d7311accf8.jpg" style="width: 100%;"></img><br>
-<strong>Interface 2.4 B:</strong> mostra uma mensagem avisando ao usuário que a conta foi criada com sucesso.<hr>
-
-<img src="https://user-images.githubusercontent.com/85751689/163298301-33ff01d2-d596-4689-8430-a19f0de2ac3c.jpg" style="width: 100%;"></img><br>
-<strong>Interface 3.1 A:</strong> fornece as revisões para o usuário do tipo 'motorista'.<hr>
-
-<img src="https://user-images.githubusercontent.com/85751689/163298377-22a0c533-c596-4dc8-9877-e11d6dd4e7e5.jpg" style="width: 100%;"></img><br>
-<strong>Interface 3.2 A:</strong> fornece os agendamentos para o usuário do tipo 'motorista'.<hr>
-
-<img src="https://user-images.githubusercontent.com/85751689/163391454-5816e75b-e87f-4d1d-9bb4-dff4aff79d7e.jpg" style="width: 100%;"></img><br>
-<strong>Interface 3.2 B:</strong> fornece os agendamentos para o usuário do tipo 'oficina'.<hr>
-
-<img src="https://user-images.githubusercontent.com/85751689/163298507-e6dfeca5-fc27-4b7e-9f64-24758da018e9.jpg" style="width: 100%;"></img><br>
-<strong>Interface 3.3 A:</strong> utilizada pelo usuário do tipo 'motorista' para cadastrar motos.<hr>
-
-<img src="https://user-images.githubusercontent.com/85751689/163298567-1b21315a-84fb-4011-a958-7a44afe9909a.jpg" style="width: 100%;"></img><br>
-<strong>Interface 3.3 B:</strong> utilizada pelo usuário do tipo 'oficina' para cadastrar peças.<hr>
-
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+![tela_18](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group3/assets/131212075/ddc7a6bc-3d04-4f0c-8467-09ac1716c1d7)
+<strong>Resultado da busca.</strong> É possível, através da tela inicial, utilizar os filtros para buscar por um animal específico. <hr>
 
 
-## Wireframes
+![tela_2](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group3/assets/131212075/bd86d8ef-6f58-4f44-8fa9-fb31959870fc)
+<strong>Visualização do animal.</strong> Nessa tela, o usuário pode visualizar mais detalhes sobre o animal de seu interesse e sobre o doador. <hr>
 
-<img id="login" src="https://user-images.githubusercontent.com/85751689/163293018-e1389855-83ba-42e8-b157-8cad2b2ae065.jpg" style="width: 400px;"></img>
-<img id="revisoes-motorista" src="https://user-images.githubusercontent.com/85751689/163293204-668b1c13-bd6a-44de-9135-91f88d16ffc2.jpg" style="width: 400px;"></img>
-<img id="agendamento-motorista" src="https://user-images.githubusercontent.com/85751689/163293225-9b530c1f-30a0-4c79-a01e-84b68dbd8fb9.jpg" style="width: 400px;"></img>
-<img id="agendamento-oficina" src="https://user-images.githubusercontent.com/85751689/163293323-bf16e51a-6df7-41ce-8505-90faa47019db.jpg" style="width: 400px;"></img>
-<img id="cadastro-veiculo-motorista" src="https://user-images.githubusercontent.com/85751689/163293390-380b7007-5f37-4014-a54a-5cf59d054013.jpg" style="width: 400px;"></img>
-<img id="cadastro-veiculo-oficina" src="https://user-images.githubusercontent.com/85751689/163293460-91c36aae-ade6-4683-98f1-c7a0a6c3d409.jpg" style="width: 400px;"></img>
-<img id="cadastro-p1" src="https://user-images.githubusercontent.com/85751689/163293514-99d21b77-3425-4381-9179-f91b8a0c5d11.jpg" style="width: 400px;"></img>
-<img id="cadastro-p2" src="https://user-images.githubusercontent.com/85751689/163293562-f41364a0-4d48-4015-9a92-9b8bdb724fcf.jpg" style="width: 400px;"></img>
-<img id="cadastro-p3-motorista" src="https://user-images.githubusercontent.com/85751689/163293582-5813f519-f06b-432c-944e-974d75a0d487.jpg" style="width: 400px;"></img>
-<img id="cadastro-p3-oficina" src="https://user-images.githubusercontent.com/85751689/163293677-4da7b41e-70f3-4654-9dbe-18031fc52454.jpg" style="width: 400px;"></img>
-<img id="cadastro-p4-oficina" src="https://user-images.githubusercontent.com/85751689/163293751-049db8fd-2223-4a7f-bb2d-2ad16a8b4206.jpg" style="width: 400px;"></img>
-<img id="cadastro-p5" src="https://user-images.githubusercontent.com/85751689/163293792-ef68fc92-e1f1-4cb8-8124-98d24be90290.jpg" style="width: 400px;"></img>
+![tela_3](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group3/assets/131212075/2cd9c41a-2671-4ee6-9c4a-47d452b103e1)
+<strong>Doações do responsável.</strong> Após clicar no perfil do doador, é possível visualizar todas as doações daquele responsável. <hr>
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+![tela_5](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group3/assets/131212075/6577b653-42df-4930-b04f-e2761fd69d4e)
+<strong>Tela de login.</strong> Se o usuário decidir adotar um animal, ou doar um bichinho, ou visualizar suas doações, é requirido o login desse usuário. Através desta tela é possível realizar o login ou cadastrar-se, caso o usuário não possua uma conta.<hr>
+
+![tela_6](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group3/assets/131212075/cd5dc537-a01d-44e4-8e54-822c691e0660)
+<strong>Redefinição de senha 1.0</strong> - No momento do login, se o usuário esquecer sua senha, é possível redefiní-la. <hr>
+
+![tela_7](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group3/assets/131212075/eca6bc7c-e7bd-4a78-9066-0f5dce43557d)
+<strong>Redefinição de senha 1.1</strong> - Neste momento, é solicitado o código enviado no email do usuário para redefinir sua senha. <hr>
+
+![tela_8](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group3/assets/131212075/4ff03f83-8676-4a93-8130-0916463a93c0)
+<strong>Redefinição de senha 1.2</strong> - Após a confirmação do código, o usuário pode definir sua nova senha. <hr>
+
+![tela_9](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group3/assets/131212075/cc2e541a-0da3-4ad8-b7dd-dc245d0f69ff)
+<strong>Redefinição de senha 2.0</strong> - Tela de confirmação de redefinição de senha. <hr>
+
+![tela_4](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group3/assets/131212075/f3ece0a1-a0d3-49d2-bb01-21ffde7cb93e)
+<strong>Tela de cadastro.</strong> Caso o usuário não possua uma conta, é possível cadastrar-se através desta tela. <hr>
+
+![tela_10](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group3/assets/131212075/c9cb8d32-b55a-4115-81ba-9c8268517c46)
+<strong>Doação de animal 1.0</strong> - Após devidamente cadastrado/logado, o usuário pode escolher doar um bichinho. Neste momento, são solicitados dados do animal a ser doado. <hr>
+
+![tela_11](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group3/assets/131212075/64d00fb5-5d52-4928-9299-a039d0dd3730)
+<strong>Doação de animal 1.1</strong> - É necessário inserir fotos do animal a ser doado. <hr>
+
+![tela_12](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group3/assets/131212075/2773252a-aeb2-474a-a612-5cd11330c830)
+<strong>Doação de animal 1.2</strong> - Tela que permite inserir fotos do animalzinho. <hr>
+
+![tela_13](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group3/assets/131212075/abf84f35-42e5-4273-bf6d-b528cc6bf791)
+<strong>Doação de animal 1.3</strong> - É possível adicionar uma breve descrição do animal, bem como informações importantes. <hr>
+
+![tela_14](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group3/assets/131212075/dc4f3f8e-86db-440f-9889-b7c59a4fd7a8)
+<strong>Doação de animal 2.0</strong> - Tela de confirmação de cadastro do animal. É possível editar as informações do animal, bem como adicionar outro animalzinho para doação. <hr>
+
+![tela_15](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group3/assets/131212075/264cb4aa-31c0-49ce-912b-6aeb57cb9064)
+<strong>Gerenciamento de conta.</strong> Através dessa tela, é possível editar as informações do usuário, bem como editar as informações dos animais disponíveis para adoção. <hr>
+
+![tela_16](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group3/assets/131212075/2126ddf5-ded2-46ae-9599-cdc9fc8cf49e)
+<strong>Edição de informações do animal.</strong> É possível, através dessa tela, alterar as informações do animal. <hr>
+
+![tela_17](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group3/assets/131212075/517e4ed7-dfa4-46ea-9db2-6c11d8825bc3)
+<strong>Chat.</strong> É possível, através do chat, comunicar-se com doadores de animais e com os interessados em adotar. <hr>
+
+![tela_19](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group3/assets/131212075/c6983edc-7e6b-4f2f-9761-7944cfd7a1d9)
+<strong>Tela de denúncias.</strong> Caso o usuário identifique algo suspeito ou que não esteja de acordo com as regras da comunidade, ele tem a opção de denunciar aquele conteúdo impróprio. <hr>
+
+![tela_20](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group3/assets/131212075/38962314-5f83-4df3-9a87-46fbb7dd8037)
+<strong>Confirmação de denúncia.</strong> Tela com mensagem de confirmação da denúncia. <hr>
