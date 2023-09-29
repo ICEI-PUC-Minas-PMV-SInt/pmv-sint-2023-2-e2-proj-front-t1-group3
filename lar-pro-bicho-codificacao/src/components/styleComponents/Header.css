@@ -1,0 +1,56 @@
+@font-face {
+    font-family: dosis-bold;
+    src: url("../../assets/fonts/dosis-bold.ttf");
+}
+
+h1 {
+    font-size: 25px;
+    font-family: dosis-bold;
+}
+
+h1 b {
+    font-size: 25px;
+    font-family: dosis-bold;
+    color: #FF9F32;
+}
+
+.navBar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.navBar span {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.navBar span h2 {
+    margin-left: 10px;
+}
+
+.navBar input {
+    height: 30px;
+    width: 200px;
+    border: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.274);
+    border-radius: 0 10px 10px 0;
+}
+
+.navBar input:focus {
+    outline: 2px solid #FF9F32;
+}
+
+.navBar img {
+    height: 50px;
+}
+
+.navBar a {
+    text-decoration: none;
+}

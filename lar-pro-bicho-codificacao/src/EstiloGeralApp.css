@@ -1,0 +1,12 @@
+@font-face {
+    font-family: dosis-regular;
+    src: url(assets/fonts/dosis-book.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: dosis-regular;
+    color: #646464;
+    font-size: 16px;
+}
