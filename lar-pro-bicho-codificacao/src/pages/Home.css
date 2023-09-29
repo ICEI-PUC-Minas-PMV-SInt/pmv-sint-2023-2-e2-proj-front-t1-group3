@@ -1,0 +1,101 @@
+.selecioneEstado {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.selecioneEstado a {
+    font-family: dosis-bold;
+    color: #FF9F32;
+    text-decoration: none;
+}
+
+.selecioneEstado a:hover {
+    text-decoration: underline;
+}
+
+.conhecaAmigo {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    background-color: #FF9F32;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.conhecaAmigo h2 {
+    color: white;
+    font-family: dosis-bold;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.containerAnimais {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    column-gap: 100px;
+    row-gap: 30px;
+}
+
+.containerAnimais a {
+    text-decoration: none;
+}
+
+.animal {
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.animal span {
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.estadoAnimais {
+    width: 40px;
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+
+.animal h3 {
+    margin-top: 10px;
+    font-family: dosis-bold;
+}
+
+.animal h2 {
+    margin-top: 5px;
+    font-family: dosis-bold;
+    color: #FF9F32;
+    font-size: 20px;
+}
+
+.animal ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.animal p {
+    margin-top: 15px;
+    text-align: justify;
+}

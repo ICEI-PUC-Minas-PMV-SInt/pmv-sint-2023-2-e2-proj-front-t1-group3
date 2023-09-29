@@ -1,3 +1,15 @@
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    border: 1px solid #646464;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ff9f32;
+    border-radius: 50px;
+}
+
 .container {
     width: 100vw;
     height: 100vh;
@@ -34,9 +46,9 @@
 }
 
 #main {
+    overflow: auto;
     grid-area: main;
     background-color: white;
     margin: 10px;
     border-radius: 20px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
