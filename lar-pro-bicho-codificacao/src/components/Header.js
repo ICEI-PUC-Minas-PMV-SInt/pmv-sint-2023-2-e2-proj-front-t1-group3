@@ -31,7 +31,7 @@ function Header() {
                     </span>
                 </a>
 
-                <a href="#">
+                <a href="/cadastro-usuario">
                     <span>
                         <img src={BtnCadastrar} alt="Botão de prancheta com marcações de check" />
                         <h2>Cadastre-se</h2>

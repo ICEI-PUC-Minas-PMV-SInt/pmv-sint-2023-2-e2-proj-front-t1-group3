@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from "./pages/Home";
+import CadastroUsuario from "./pages/CadastroUsuario"
 import "./EstiloGeralApp.css"
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/cadastro-usuario" element={<CadastroUsuario />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -9,6 +9,8 @@ import MG from "../assets/imgs/icone_mg.svg"
 
 function Home() {
 
+    let nomeUsuario = localStorage.getItem('nomeUsuario')
+
     return (
         <div className="container">
             <header id="header">
@@ -52,7 +54,7 @@ function Home() {
                 </div>
 
                 <div className="conhecaAmigo">
-                    <h2>Conheça seu mais novo amigo!</h2>
+                    <h2>{nomeUsuario == null ? "Conheça seu mais novo amigo!" : `Olá ${nomeUsuario}`}</h2>
                 </div>
 
                 <div className="containerAnimais">

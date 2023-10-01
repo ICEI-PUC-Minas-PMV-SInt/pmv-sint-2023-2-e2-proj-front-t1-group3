@@ -48,7 +48,5 @@
 #main {
     overflow: auto;
     grid-area: main;
-    background-color: white;
     margin: 10px;
-    border-radius: 20px;
 }
