@@ -21,24 +21,29 @@ function CadastroUsuario() {
     function cadastrar() {
         if (maiorIdade == 'on') {
 
-            usuarios.push({
-                nomeCad: nome,
-                whatsappCad: whatsapp,
-                telefoneCad: telefone,
-                emailCad: email,
-                senhaCad: senha,
-                tipoPerfilCad: tipoPerfil,
-                estadoCad: estado,
-                cidadeCad: cidade
-            })
+            if (nome == undefined || whatsapp == undefined || telefone == undefined || email == undefined || senha == undefined || tipoPerfil == undefined || estado == undefined || cidade == undefined) {
+                alert('Por favor preencha todos os campos para prosseguir.')
+            }
+            else {
 
-            localStorage.setItem('nomeUsuario', nome)
-            localStorage.setItem('usuarios', JSON.stringify(usuarios))
+                usuarios.push({
+                    nomeCad: nome,
+                    whatsappCad: whatsapp,
+                    telefoneCad: telefone,
+                    emailCad: email,
+                    senhaCad: senha,
+                    tipoPerfilCad: tipoPerfil,
+                    estadoCad: estado,
+                    cidadeCad: cidade
+                })
 
-            alert(`Olá ${nome} cadastro efetuado com sucesso, estamos te redirecionando para a página inicial.`)
+                localStorage.setItem('nomeUsuario', nome)
+                localStorage.setItem('usuarios', JSON.stringify(usuarios))
 
-            window.location.href = '/'
+                alert(`Olá ${nome} cadastro efetuado com sucesso, estamos te redirecionando para a página inicial.`)
 
+                window.location.href = '/'
+            }
         }
 
         else {
