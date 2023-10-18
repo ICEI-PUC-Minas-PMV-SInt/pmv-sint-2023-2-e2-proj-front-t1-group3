@@ -1,0 +1,137 @@
+.paginaLogin {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.containerLogin {
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.faixaLaranja {
+    width: 100%;
+    height: 13%;
+    background-color: #FF9F32;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.faixaLaranja h2 {
+    color: white;
+    font-family: dosis-bold;
+    font-size: 25px;
+}
+
+.limiteEntreElementos {
+    width: 100%;
+    height: 0%;
+}
+
+.campoLoginUsuario {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    row-gap: 10px;
+    padding: 20px 0;
+}
+
+.campoLoginUsuario input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.campoLoginUsuario input::placeholder {
+    opacity: 0.7;
+}
+
+input {
+    padding-left: 30px;
+}
+
+input:focus,
+input:focus-within {
+    outline: 2px solid #FF9F32;
+}
+
+.esqueceuSenha h3{
+    font-family: dosis-bold;
+    font-size: 20px;
+}
+
+.esqueceuSenha h3 u{
+    color:black;
+    font-family: dosis-bold;
+    font-size: 20px;
+}
+
+.botaoLaranja {
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    background-color: #FF9F32;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+#btnEntrar {
+    cursor: pointer;
+}
+
+.subtituloNovoUsuario h3{
+    font-size: 20px;
+    margin-top: 50px;    
+    width: 100%;
+    font-family: dosis-bold;
+}
+
+.botaoLaranja h2 {
+    color: white;
+    font-family: dosis-bold;
+    font-size: 25px;
+}
+
+.botaoLaranja2 {
+    width: 40%;
+    height: 50px;
+    margin-top: 15px;
+    background-color: #FF9F32;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.botaoLaranja2 h2 {
+    color: white;
+    font-family: dosis-bold;
+    font-size: 25px;
+}
+
+#btnNavCadastro {
+    cursor: pointer;
+}
+
+
