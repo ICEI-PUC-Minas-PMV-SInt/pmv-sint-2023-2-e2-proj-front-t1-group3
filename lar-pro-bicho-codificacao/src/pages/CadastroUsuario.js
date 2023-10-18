@@ -42,7 +42,7 @@ function CadastroUsuario() {
 
                 alert(`Olá ${nome} cadastro efetuado com sucesso, estamos te redirecionando para a página inicial.`)
 
-                window.location.href = '/'
+                window.location.href = '/login'
             }
         }
 

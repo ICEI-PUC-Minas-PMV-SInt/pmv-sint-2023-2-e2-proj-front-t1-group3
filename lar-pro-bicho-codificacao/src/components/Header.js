@@ -17,7 +17,7 @@ function Header() {
                     <input type="text" />
                 </span>
 
-                <a href="#">
+                <a href="/doe-um-bichinho">
                     <span>
                         <img src={BtnAdd} alt="Botão de adicionar" />
                         <h2>Doe um bichinho</h2>
