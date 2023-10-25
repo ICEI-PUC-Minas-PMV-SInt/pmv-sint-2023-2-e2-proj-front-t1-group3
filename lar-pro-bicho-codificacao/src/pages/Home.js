@@ -59,7 +59,7 @@ function Home() {
 
                 <div className="containerAnimais">
 
-                    <a href="#">
+                    <a href="/perfil-do-animal">
                         <div className="animal">
                             <span>
                                 <img className="fotoAnimais" src={Pipoca} alt="Foto do cachorro Pipoca" />
@@ -74,11 +74,11 @@ function Home() {
                                 <li>Pelagem branca</li>
                             </ul>
 
-                            <p>Super dócio, carinhoso e amigável, foi encontrado na Av. dos Estados. Aguardando um dono na ONG Amor Pelos Pets.</p>
+                            <p>Super dócil, carinhoso e amigável, foi encontrado na Av. dos Estados. Aguardando um dono na ONG Amor Pelos Pets.</p>
                         </div>
                     </a>
 
-                    <a href="#">
+                    <a href="/perfil-do-animal">
                         <div className="animal">
                             <span>
                                 <img className="fotoAnimais" src={Sophia} alt="Foto da gata Sophia" />
@@ -97,7 +97,7 @@ function Home() {
                         </div>
                     </a>
 
-                    <a href="#">
+                    <a href="/perfil-do-animal">
                         <div className="animal">
                             <span>
                                 <img className="fotoAnimais" src={Pipoca} alt="Foto do cachorro Pipoca" />
@@ -112,11 +112,11 @@ function Home() {
                                 <li>Pelagem branca</li>
                             </ul>
 
-                            <p>Super dócio, carinhoso e amigável, foi encontrado na Av. dos Estados. Aguardando um dono na ONG Amor Pelos Pets.</p>
+                            <p>Super dócil, carinhoso e amigável, foi encontrado na Av. dos Estados. Aguardando um dono na ONG Amor Pelos Pets.</p>
                         </div>
                     </a>
 
-                    <a href="#">
+                    <a href="/perfil-do-animal">
                         <div className="animal">
                             <span>
                                 <img className="fotoAnimais" src={Sophia} alt="Foto da gata Sophia" />
@@ -135,7 +135,7 @@ function Home() {
                         </div>
                     </a>
 
-                    <a href="#">
+                    <a href="/perfil-do-animal">
                         <div className="animal">
                             <span>
                                 <img className="fotoAnimais" src={Pipoca} alt="Foto do cachorro Pipoca" />
@@ -150,11 +150,11 @@ function Home() {
                                 <li>Pelagem branca</li>
                             </ul>
 
-                            <p>Super dócio, carinhoso e amigável, foi encontrado na Av. dos Estados. Aguardando um dono na ONG Amor Pelos Pets.</p>
+                            <p>Super dócil, carinhoso e amigável, foi encontrado na Av. dos Estados. Aguardando um dono na ONG Amor Pelos Pets.</p>
                         </div>
                     </a>
 
-                    <a href="#">
+                    <a href="/perfil-do-animal">
                         <div className="animal">
                             <span>
                                 <img className="fotoAnimais" src={Sophia} alt="Foto da gata Sophia" />
@@ -173,7 +173,7 @@ function Home() {
                         </div>
                     </a>
 
-                    <a href="#">
+                    <a href="/perfil-do-animal">
                         <div className="animal">
                             <span>
                                 <img className="fotoAnimais" src={Pipoca} alt="Foto do cachorro Pipoca" />
@@ -188,11 +188,11 @@ function Home() {
                                 <li>Pelagem branca</li>
                             </ul>
 
-                            <p>Super dócio, carinhoso e amigável, foi encontrado na Av. dos Estados. Aguardando um dono na ONG Amor Pelos Pets.</p>
+                            <p>Super dócil, carinhoso e amigável, foi encontrado na Av. dos Estados. Aguardando um dono na ONG Amor Pelos Pets.</p>
                         </div>
                     </a>
 
-                    <a href="#">
+                    <a href="/perfil-do-animal">
                         <div className="animal">
                             <span>
                                 <img className="fotoAnimais" src={Sophia} alt="Foto da gata Sophia" />
