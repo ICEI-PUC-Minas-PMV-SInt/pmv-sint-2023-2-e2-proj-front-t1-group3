@@ -193,3 +193,18 @@ color: var(--laranja);
 .icone_info img {
     width: 35px;
 }
+
+.divComentarios {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.fotoPessoa img{
+width: 35px;
+}
+
+.horarioComentario {
+    font-size: 14px;
+}

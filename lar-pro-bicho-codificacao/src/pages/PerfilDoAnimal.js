@@ -14,52 +14,77 @@ import Telefone from "../assets/imgs/icone_tel.svg";
 import Wpp from "../assets/imgs/icone_whatsapp.svg";
 import Ong from "../assets/imgs/ong-amor-animal.png";
 import Chat from "../assets/imgs/icone_chat.svg";
+import SemFoto from "../assets/imgs/sem-foto.png";
 import { FaFacebookSquare, FaInstagramSquare } from "react-icons/fa";
 import { useState } from "react";
 
+function Comentario({ comentario }) {
+
+  function parseDate(horario) {
+    const date = new Date(horario);
+    const horas = date.getHours();
+    const minutos = date.getMinutes();
+    const dia = date.getDate();
+    const mes = date.getMonth();
+    const ano = date.getFullYear();
+    
+    return `${horas}:${minutos}, ${dia}/${mes + 1}/${ano}`
+  }
+
+  return (
+    <div className="divComentarios">
+    <div className="fotoPessoa">
+      <img src={SemFoto} alt="pessoa" />
+    </div>
+    <div>
+      <h6>{comentario.nomePessoa}</h6>
+      <p className="horarioComentario">{parseDate(comentario.horario)}</p>
+      <p>{comentario.comentarioPessoa}</p>
+    </div>
+    </div>
+  );
+}
+
+function Comentarios({ comentarios }) {
+  return (
+    <div id="div_comentarios">
+      {comentarios.map((comentario , index) => (
+        <Comentario key={index} comentario={comentario} />
+      ))}
+    </div>
+  );
+}
+
 function PerfilDoAnimal() {
-//estiliza os ícones do instagram e facebook
+  //estiliza os ícones do instagram e facebook
   let iconStyle = { fontSize: "24px" };
 
   //recupera os itens do localStorage
-  let comentarios = JSON.parse(localStorage.getItem("comentarios") || "[]");
 
+  const [comentarios, setComentarios] = useState(
+    JSON.parse(localStorage.getItem("comentarios") || "[]")
+  );
   //useState para capturar os elementos onChange
-  const [nome, setNome] = useState();
-  const [comentario, setComentario] = useState();
-
-  //função para criar divs e publicar os comentários feitos
-  function publicarComentario(name, comment) {
-
-    const divPai = document.getElementById('div_comentarios');
-    const divComentario = document.createElement('div');
-    const espacoNome = document.createElement('h6');
-    const espacoComentario = document.createElement('p');
-
-    divPai.appendChild(divComentario);
-    divComentario.appendChild(espacoNome);
-    divComentario.appendChild(espacoComentario);
-
-    espacoNome.innerHTML = name;
-    espacoComentario.innerHTML = comment;
-
-    
-  }
+  const [nome, setNome] = useState("");
+  const [comentario, setComentario] = useState("");
+  console.log(comentarios);
 
   function comentar() {
-    if (nome == undefined || comentario == undefined) {
+    if (nome == "" || comentario == "") {
       alert("Por favor preencha todos os campos para comentar");
     } else {
-      comentarios.push({ nomePessoa: nome, comentarioPessoa: comentario });
-      publicarComentario(nome, comentario);
-
-      localStorage.setItem('comentarios', JSON.stringify(comentarios));
+      setComentarios((comentariosAnteriores) => {
+        const comentariosAtuais = [
+          ...comentariosAnteriores,
+          { nomePessoa: nome, comentarioPessoa: comentario, horario: (new Date()).toString() },
+        ];
+        localStorage.setItem("comentarios", JSON.stringify(comentariosAtuais));
+        return comentariosAtuais;
+      });
+      setNome("");
+      setComentario("");
     }
   }
-
-  
-
-  
 
   return (
     <div className="container">
@@ -160,14 +185,16 @@ function PerfilDoAnimal() {
                 placeholder="Nome"
                 id="espaco_nome"
                 onChange={(e) => setNome(e.target.value)}
+                value={nome}
               />
               <textarea
                 id="espaco_comentario"
                 onChange={(e) => setComentario(e.target.value)}
-              ></textarea>
+                value={comentario}
+              />
               <button onClick={comentar}>Comentar</button>
             </div>
-            <div id="div_comentarios"></div>
+            <Comentarios comentarios={comentarios} />
           </section>
 
           <section className="secao_responsavel" id="secaoResponsavel">
