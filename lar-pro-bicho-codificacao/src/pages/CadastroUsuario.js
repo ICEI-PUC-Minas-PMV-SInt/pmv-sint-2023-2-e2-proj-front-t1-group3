@@ -148,7 +148,7 @@ function CadastroUsuario() {
                         <label id="labelMaiorIdade" htmlFor="maiorIdade">Confirmo ter mais de 18 anos</label>
                     </span>
 
-                    <div className="faixaLaranja" id="btnCadastrar" onClick={cadastrar}><h2>Cadastrar</h2></div>
+                    <div className="faixaLaranjaBtn" id="btnCadastrar" onClick={cadastrar}><h2>Cadastrar</h2></div>
 
                 </div>
             </main>

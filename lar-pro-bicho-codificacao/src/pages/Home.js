@@ -57,7 +57,7 @@ function Home() {
                     <h2>{nomeUsuario == null ? "Conheça seu mais novo amigo!" : `Olá ${nomeUsuario}`}</h2>
                 </div>
 
-                <div className="containerAnimais">
+                <div className="warperAnimais">
 
                     <a href="/perfil-do-animal">
                         <div className="animal">
@@ -172,48 +172,10 @@ function Home() {
                             <p>Gata dócil já castrada com cerca de 1 ano de idade procura por um dono. Resgatei da rua e não tenho condições de ficar com ela.</p>
                         </div>
                     </a>
-
-                    <a href="/perfil-do-animal">
-                        <div className="animal">
-                            <span>
-                                <img className="fotoAnimais" src={Pipoca} alt="Foto do cachorro Pipoca" />
-                                <img className="estadoAnimais" src={SP} alt="Ícone do estado de São Paulo" />
-                            </span>
-                            <h3>Marília / SP</h3>
-                            <h2>Pipoca</h2>
-                            <ul>
-                                <li>Cãozinho</li>
-                                <li>Macho</li>
-                                <li>Pequeno</li>
-                                <li>Pelagem branca</li>
-                            </ul>
-
-                            <p>Super dócil, carinhoso e amigável, foi encontrado na Av. dos Estados. Aguardando um dono na ONG Amor Pelos Pets.</p>
-                        </div>
-                    </a>
-
-                    <a href="/perfil-do-animal">
-                        <div className="animal">
-                            <span>
-                                <img className="fotoAnimais" src={Sophia} alt="Foto da gata Sophia" />
-                                <img className="estadoAnimais" src={MG} alt="Ícone do estado de Minas Gerais" />
-                            </span>
-                            <h3>Poços de Caldas / MG</h3>
-                            <h2>Sophia</h2>
-                            <ul>
-                                <li>Gatinho</li>
-                                <li>Fêmea</li>
-                                <li>Pequeno</li>
-                                <li>Pelagem caramelo</li>
-                            </ul>
-
-                            <p>Gata dócil já castrada com cerca de 1 ano de idade procura por um dono. Resgatei da rua e não tenho condições de ficar com ela.</p>
-                        </div>
-                    </a>
-
                 </div>
 
             </main>
+
         </div>
     )
 
