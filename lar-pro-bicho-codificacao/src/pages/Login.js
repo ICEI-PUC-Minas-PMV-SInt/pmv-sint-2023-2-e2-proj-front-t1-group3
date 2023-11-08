@@ -4,26 +4,43 @@ import Header from "../components/Header"
 import Aside from "../components/Aside"
 import { useState } from "react"
 
+let usuarios = JSON.parse(localStorage.getItem('usuarios'))
+
 function Login() {
     const [email, setEmail] = useState("")
     const [senha, setSenha] = useState("")
 
-    function esqueceuSenha(){
-        alert('Essa funcionalidade não esta disponivel')
+    function esqueceuSenha() {
+        alert('Essa funcionalidade não está disponivel')
     }
 
     function logar() {
 
-        if (email == 'teste@gmail.com' && senha == '12345678') {
-            alert('Logado com sucesso')
-            window.location.href = '/'
+        if (usuarios == null) {
+            alert('É necessário se cadastrar antes de efetuar o login. Redirecionando para a página de cadastro.')
+            window.location.href = '/cadastro-usuario'
         }
         else {
-            alert('Email ou senha inválida')
+            let usuarioValidado = false
+
+            usuarios.map((el, i) => {
+                if (email == usuarios[i].emailCad && senha == usuarios[i].senhaCad) {
+                    usuarioValidado = true
+                }
+            })
+
+            if (usuarioValidado == false) {
+                alert('Usuário ou senha incorretos, verifique por favor.')
+            }
+            else {
+                alert('Login efetuado com sucesso, você será redirecionado para a página inicial.')
+                window.location.href = '/'
+            }
         }
+
     }
 
-    function navegaCadastro(){
+    function navegaCadastro() {
         window.location.href = '/cadastro-usuario'
     }
 
@@ -57,7 +74,7 @@ function Login() {
                         <div className="limiteEntreElementos"></div>
 
                         <div className="esqueceuSenha">
-                            <h3>Esqueceu sua senha? <u onClick={esqueceuSenha}>Clique aqui</u> para redefinir</h3>
+                            <h3>Esqueceu sua senha? <a href="#" onClick={esqueceuSenha}>Clique aqui</a> para redefinir</h3>
                         </div>
 
                         <div className="limiteEntreElementos"></div>
@@ -78,7 +95,7 @@ function Login() {
                             <h2>Cadastre-se</h2>
                         </div>
 
-                    </div>  
+                    </div>
 
                 </div>
             </main>

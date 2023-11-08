@@ -40,7 +40,7 @@ function CadastroUsuario() {
                 localStorage.setItem('nomeUsuario', nome)
                 localStorage.setItem('usuarios', JSON.stringify(usuarios))
 
-                alert(`Olá ${nome} cadastro efetuado com sucesso, estamos te redirecionando para a página inicial.`)
+                alert(`Olá ${nome} cadastro efetuado com sucesso, estamos te redirecionando para a página de login.`)
 
                 window.location.href = '/login'
             }
