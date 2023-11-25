@@ -45,7 +45,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Código
 
-<li><a href="src/README.md"> Código Fonte</a></li>
+<li><a href="lar-pro-bicho-codificacao/"> Código Fonte</a></li>
 
 # Apresentação
 

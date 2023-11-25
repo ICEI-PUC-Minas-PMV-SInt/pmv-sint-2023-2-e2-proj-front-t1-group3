@@ -39,20 +39,20 @@
     letter-spacing: 2px;
 }
 
-.containerAnimais {
-    margin-top: 20px;
+.warperAnimais {
     width: 100%;
     height: auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: flex-start;
-    align-content: flex-start;
-    column-gap: 100px;
+    align-items: center;
+    align-content: center;
+    column-gap: 70px;
     row-gap: 30px;
+    padding: 20px;
 }
 
-.containerAnimais a {
+.warperAnimais a {
     text-decoration: none;
 }
 

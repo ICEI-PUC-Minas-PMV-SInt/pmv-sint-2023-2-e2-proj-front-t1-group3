@@ -24,7 +24,7 @@ function Header() {
                     </span>
                 </a>
 
-                <a href="#">
+                <a href="/GerenciamentoConta">
                     <span>
                         <img src={BtnMinhasDocoes} alt="Botão de mão com coração" />
                         <h2>Minhas Doações</h2>

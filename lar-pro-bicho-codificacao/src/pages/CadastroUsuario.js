@@ -40,7 +40,7 @@ function CadastroUsuario() {
                 localStorage.setItem('nomeUsuario', nome)
                 localStorage.setItem('usuarios', JSON.stringify(usuarios))
 
-                alert(`Olá ${nome} cadastro efetuado com sucesso, estamos te redirecionando para a página inicial.`)
+                alert(`Olá ${nome} cadastro efetuado com sucesso, estamos te redirecionando para a página de login.`)
 
                 window.location.href = '/login'
             }
@@ -148,7 +148,7 @@ function CadastroUsuario() {
                         <label id="labelMaiorIdade" htmlFor="maiorIdade">Confirmo ter mais de 18 anos</label>
                     </span>
 
-                    <div className="faixaLaranja" id="btnCadastrar" onClick={cadastrar}><h2>Cadastrar</h2></div>
+                    <div className="faixaLaranjaBtn" id="btnCadastrar" onClick={cadastrar}><h2>Cadastrar</h2></div>
 
                 </div>
             </main>

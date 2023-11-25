@@ -5,6 +5,7 @@ import Login from "./pages/Login"
 import "./EstiloGeralApp.css"
 import PerfilDoAnimal from "./pages/PerfilDoAnimal";
 import Chat from "./pages/Chat";
+import GerenciamentoConta from "./pages/GerenciamentoConta"
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
           <Route path="/login" element={<Login />} /> 
           <Route path="/perfil-do-animal" element={<PerfilDoAnimal />} />   
           <Route path="/chat" element={<Chat />} />         
+          <Route path="/perfil-do-animal" element={<PerfilDoAnimal />} /> 
+          <Route path="/GerenciamentoConta" element={<GerenciamentoConta />} />           
         </Routes>
       </BrowserRouter>
     </>

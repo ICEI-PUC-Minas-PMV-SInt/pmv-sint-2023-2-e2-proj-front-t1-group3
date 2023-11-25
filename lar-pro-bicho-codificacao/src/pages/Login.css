@@ -74,13 +74,13 @@ input:focus-within {
     outline: 2px solid #FF9F32;
 }
 
-.esqueceuSenha h3{
-    font-family: dosis-bold;
+.esqueceuSenha h3 {
+    font-weight: normal;
+    color: #646464;
     font-size: 20px;
 }
 
-.esqueceuSenha h3 u{
-    color:black;
+.esqueceuSenha h3 a {
     font-family: dosis-bold;
     font-size: 20px;
 }
@@ -100,11 +100,12 @@ input:focus-within {
     cursor: pointer;
 }
 
-.subtituloNovoUsuario h3{
+.subtituloNovoUsuario h3 {
     font-size: 20px;
-    margin-top: 50px;    
+    margin-top: 50px;
     width: 100%;
-    font-family: dosis-bold;
+    font-family: dosis-regular;
+    font-weight: normal;
 }
 
 .botaoLaranja h2 {
@@ -133,5 +134,3 @@ input:focus-within {
 #btnNavCadastro {
     cursor: pointer;
 }
-
-
