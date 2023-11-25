@@ -38,7 +38,7 @@ function Header() {
                     </span>
                 </a>
 
-                <a href="#">
+                <a href="/chat">
                     <span>
                         <img src={BtnChat} alt="Botão de chat" />
                         <h2>Chat</h2>

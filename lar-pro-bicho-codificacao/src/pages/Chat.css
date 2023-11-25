@@ -1,0 +1,143 @@
+@font-face {
+  font-family: dosis-bold;
+  src: url(../assets/fonts/dosis-bold.ttf);
+}
+
+:root {
+  --laranja: #ff9f32;
+  --config-sombra-caixa: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.main_container {
+  display: flex;
+  margin: 10px 0;
+  gap: 36px;
+}
+
+.container_conversas {
+  display: flex;
+  flex-flow: column;
+  border-radius: 16px;
+  box-shadow: var(--config-sombra-caixa);
+  width: 300px;
+}
+
+.container_conversas h1 {
+  color: var(--laranja);
+  margin: 20px 15px;
+  font-size: 32px;
+}
+
+.card_conversas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 16px;
+  box-shadow: inset 0px 0px 9px -1px rgba(0,0,0,0.75);
+  padding: 20px;
+}
+
+.card_conversas img {
+  width: 80px;
+}
+
+.card_conversas h2 {
+    color: var(--laranja);
+    font-size: 24px;
+    font-family: dosis-bold;
+}
+
+.main_conversa {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+.primeiro_titulo {
+    background-color: var(--laranja);
+    border-radius: 16px;
+    text-align: center;
+    padding: 5px;
+}
+
+.primeiro_titulo h1 {
+    color: white;
+}
+
+.segundo_titulo {
+    display: flex;
+    padding: 5px;
+    text-align: center;
+    background-color: var(--laranja);
+    border-radius: 16px;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+    position: relative;
+}
+
+.segundo_titulo img {
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    margin-right: 50%;
+    border: solid 2px var(--laranja);
+}
+
+.segundo_titulo h1 {
+    color: white;
+}
+
+.espaco_conversa {
+    height: 518px;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    background-color: var(--laranja);
+    border: none;
+}
+
+.div_input {
+    display: flex;
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+    border-radius: 16px;
+    gap: 10px;
+    padding: 5px;
+    justify-content: center;
+}
+
+.div_input input {
+    outline: none;
+    border-radius: 16px;
+    border: none;
+    width: 90%;
+}
+
+
+.div_input img {
+    width: 40px;
+    cursor: pointer;
+}
+
+.div_mensagem {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.horarioMensagem {
+  font-size: smaller;
+}
+
+.div_mensagem img {
+  width: 30px;
+  border: solid 1px rgb(233, 233, 233);
+  background-color: rgb(233, 233, 233);
+  border-radius: 50%;
+}

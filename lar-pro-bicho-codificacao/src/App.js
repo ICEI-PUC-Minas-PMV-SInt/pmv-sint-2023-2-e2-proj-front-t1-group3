@@ -4,6 +4,7 @@ import CadastroUsuario from "./pages/CadastroUsuario"
 import Login from "./pages/Login"
 import "./EstiloGeralApp.css"
 import PerfilDoAnimal from "./pages/PerfilDoAnimal";
+import Chat from "./pages/Chat";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
           <Route path="/cadastro-usuario" element={<CadastroUsuario />} />
           <Route path="/doe-um-bichinho" element={<Login />} />   
           <Route path="/login" element={<Login />} /> 
-          <Route path="/perfil-do-animal" element={<PerfilDoAnimal />} />            
+          <Route path="/perfil-do-animal" element={<PerfilDoAnimal />} />   
+          <Route path="/chat" element={<Chat />} />         
         </Routes>
       </BrowserRouter>
     </>
